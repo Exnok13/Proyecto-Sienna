@@ -1,18 +1,23 @@
-# Dependencias Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-
-# Compilaciones
-dist/
-build/
-
-# Variables de entorno y secretos
+# Archivo de secretos
 .env
 *.env
 
-# Archivos del sistema y editores
+# Dependencias y cachés
+node_modules/
+__pycache__/
+*.pyc
+
+# Builds
+dist/
+build/
+
+# Backups y datos de base de datos
+pgdata/
+*.sql
+scripts/backups/
+
+# Archivos temporales del sistema y editores
 .DS_Store
 Thumbs.db
 .vscode/
-.idea/
+*.save
